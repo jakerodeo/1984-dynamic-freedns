@@ -1,0 +1,2 @@
+# Library for sending HTTP requests to 1984's FreeDNS API
+requests ~= 2.25.1
