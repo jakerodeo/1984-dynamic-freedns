@@ -15,7 +15,7 @@ def update(apikey: str, domain: str):
 
 def parseArguments():
     # Setup argparse with all the arguments needed
-    parser = argparse.ArgumentParser(description='Process some integers.')
+    parser = argparse.ArgumentParser(description="Keep an A record on 1984's FreeDNS service up-to-date.")
     parser.add_argument("apikey",
                         help="Your FreeDNS API key")
     parser.add_argument("domain",
